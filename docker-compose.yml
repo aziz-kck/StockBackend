@@ -16,7 +16,7 @@ services:
       - mynetwork
 
   stockbackend:
-    image: azizk99/stock:1.0
+    image: azizk99/stock_backend:1.0
     depends_on:
       - mysqldb
     restart: on-failure
