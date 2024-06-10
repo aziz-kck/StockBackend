@@ -2,15 +2,7 @@ pipeline {
     agent any
 
     stages {
-         stage('Checkout Code') {
-            steps {
-                checkout([$class: 'GitSCM',
-                    branches: [[name: 'AzizKchouk']],
-                        userRemoteConfigs: [[
-                            url: 'https://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@github.com/aziz-kck/StockBackend.git']]
-                ])
-            }
-        }
+ 
 
         stage('Clean') {
             steps {
