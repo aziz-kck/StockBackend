@@ -21,7 +21,7 @@ pipeline {
 //                 sh 'docker build -t azizk99/stock_backend:1.0 .'
 //                 }
 //             }
-//
+
 //         stage ('Push Docker Image'){
 //
 //             steps{
@@ -51,11 +51,11 @@ pipeline {
 //                 sh 'docker compose up -d'
 //             }
 //         }
-//
+
 //         stage("Deploy to Nexus") {
 //             steps {
 //                 sh 'mvn deploy'
 //             }
-          }
+//           }
     }
 }
